@@ -14,6 +14,10 @@ describe('AppComponent', () => {
     }).compileComponents();
   }));
 
+  it('stupid test', () => {
+    expect(1).toBe(1);
+  });
+
   it('should create the app', () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
